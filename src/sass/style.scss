@@ -1,0 +1,24 @@
+@import 'base/variables';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.container {
+    min-width: 1140px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+@import 'blocks/firstscreen';
+@import 'blocks/contents';
+@import 'blocks/optimisation';
+@import 'blocks/possibilities';
+@import 'blocks/presents';
+@import 'blocks/firstweb';
+@import 'blocks/footer';
+
+
+

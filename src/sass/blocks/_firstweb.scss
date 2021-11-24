@@ -1,0 +1,33 @@
+.firstweb {
+    min-height: 515px;
+    min-width: 1140px;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__notebook {
+        padding-top: 82px;
+    }
+    &__date {
+        margin-top: 13px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 36px;
+        color: #299cbd;
+    }
+    &__descr {
+        margin-top: 11px;
+        text-align: center;
+        color: #4a4a4a;
+        font-size: 23px;
+    }
+    &__heading {
+        margin-top: 36px;
+        text-align: center;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+}
